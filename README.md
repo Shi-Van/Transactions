@@ -65,6 +65,7 @@ venv\Scripts\activate
 After activating the virtual environment, install the required packages:
 ```bash
 pip install ipython ipykernel
+ipython kernel install --user --name=venv
 ```
 
 ## Running Jupyter Notebook
